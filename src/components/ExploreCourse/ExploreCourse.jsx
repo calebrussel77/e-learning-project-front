@@ -2,7 +2,7 @@ import React from 'react';
 
 const ExploreCourse = () => {
   return (
-    <button className="flex justify-between items-center">
+    <button className="flex justify-between items-center hover:bg-gray-300 bg-gray-100 rounded py-2 px-8">
       <div className="font-bold text-gray-900">Explorer</div>
       <div className="ml-2">
         <svg

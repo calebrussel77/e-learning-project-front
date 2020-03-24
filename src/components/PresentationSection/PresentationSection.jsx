@@ -2,7 +2,7 @@ import React from 'react';
 
 const PresentationSection = () => {
   return (
-    <div className="flex justify-center items-center mt-20 bg-gray-100 shadow-lg h-48 w-full rounded-lg">
+    <div className="flex justify-center items-center mt-20 bg-gray-100 shadow-lg h-48 max-w-full rounded-lg">
       <div className="w-1/3">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -64,11 +64,11 @@ const PresentationSection = () => {
         <h2 className="text-gray-800 font-bold text-center text-lg">
           Consequat
         </h2>
-        <p className="text-gray-500 text-center font-semibold">
+        <p className="text-gray-500 text-center font-semibold ">
           lorem ipsum es una new nueva de la castle ansu madre{' '}
         </p>
       </div>
-      <div className="w-1/3">
+      <div className="w-1/3 mx-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-20 w-20 mx-48 mx-auto"

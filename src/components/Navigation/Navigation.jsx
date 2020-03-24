@@ -4,7 +4,7 @@ import CategoriesList from './CategoriesList/CategoriesList';
 
 const Navigation = () => {
   return (
-    <header className="w-full">
+    <header>
       <HeaderNav />
       <CategoriesList />
 

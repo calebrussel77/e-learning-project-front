@@ -3,7 +3,7 @@ import Formation from './Formation/Formation';
 
 const Formations = () => {
   return (
-    <div className="flex justify-between flex-wrap">
+    <div className="flex items-center flex-wrap justify-around">
       <Formation />
       <Formation />
       <Formation />

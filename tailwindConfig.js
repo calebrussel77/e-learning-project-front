@@ -4,7 +4,7 @@ module.exports = {
   separator: ':',
   theme: {
     screens: {
-      sm: '640px',
+      sm: '540px',
       md: '768px',
       lg: '1024px',
       xl: '1280px',
@@ -14,6 +14,7 @@ module.exports = {
 
       black: '#030303',
       white: '#FFFFFF',
+      bgfont:'#C6CBD4',
 
       gray: {
         100: '#f7fafc',
@@ -309,10 +310,11 @@ module.exports = {
     maxHeight: {
       full: '100%',
       screen: '100vh',
+      lg: '28rem',
     },
     maxWidth: (theme, {breakpoints}) => ({
       none: 'none',
-      xss: '18rem',
+      xss: '17rem',
       xs: '20rem',
       sm: '24rem',
       md: '28rem',
@@ -388,6 +390,7 @@ module.exports = {
       '1/3': '33.333333%',
       '2/3': '66.666667%',
       '1/4': '25%',
+      '1/5': '20%',
       '2/4': '50%',
       '3/4': '75%',
       '1/5': '20%',

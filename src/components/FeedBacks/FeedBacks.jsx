@@ -1,5 +1,6 @@
 import React from 'react';
 import FeedBack from './FeedBack/FeedBack';
+import './Feedbacks.css';
 
 const FeedBacks = () => {
   return (
@@ -13,12 +14,13 @@ const FeedBacks = () => {
         Ce que d'autres étudiants pensent de nous , après avoir appris avec nous
         et atteint leurs objectifs
       </p>
-      <div className="flex items-center justify-around flex-wrap mt-10">
-        <FeedBack />
-        <FeedBack />
-        <FeedBack />
-        <FeedBack />
-      </div>
+          <div className="main-carousel my-10 max-w-6xl mx-auto" data-flickity='{ "cellAlign": "left", "contain": true }'>
+              <div className="carousel-cell"><FeedBack /></div>
+              <div className="carousel-cell"><FeedBack /></div>
+              <div className="carousel-cell"><FeedBack /></div>
+              <div className="carousel-cell"><FeedBack /></div>
+              <div className="carousel-cell"><FeedBack /></div>
+          </div>
     </div>
   );
 };

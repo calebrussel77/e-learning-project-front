@@ -3,7 +3,7 @@ import Course from './Course/Course';
 
 const Courses = () => {
   return (
-    <div className="flex justify-between flex-wrap">
+    <div className="flex items-stretch flex-wrap justify-around ">
       <Course />
       <Course />
       <Course />

@@ -2,7 +2,7 @@ import React from 'react';
 
 const FeedBack = () => {
   return (
-    <div className="rounded-lg shadow-md h-40 max-w-xs border-2 bg-green-100">
+    <div className="rounded-lg shadow-md h-40 max-w-sm border-2 bg-green-100">
       <div className="">
         <p className="text-gray-600 p-4">
           j'aime beaucoup cette plateforme elle m'a permis de mieux comprendre

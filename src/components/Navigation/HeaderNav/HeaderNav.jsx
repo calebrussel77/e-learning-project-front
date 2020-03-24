@@ -7,24 +7,24 @@ import Languages from '../../Languages/Languages';
 
 const Navbar = () => {
   return (
-    <div className="flex justify-around items-center h-16 bg-white">
-      <div>
+    <div className="flex items-center justify-center h-16 bg-white border">
+      <div className="ml-16">
         <Logo />
       </div>
-      <div>
+      <div className='ml-8'>
         <ExploreCourse />
       </div>
-      <div>
+      <div className="ml-8">
         <Languages />
       </div>
-      <div className="hidden md:block lg:block xl:block">
+      <div className="ml-8">
         <SearchBar />
       </div>
-      <div className="hidden lg:block md:block xl:block">
+      <div className="ml-8">
         <Btn>S'enregistrer</Btn>
       </div>
-      <button className="mr-8 bg-green-700 px-16 rounded-md py-1 hover:bg-green-800 sm:display-none">
-        <a href="grafikert.fr" className="font-semibold text-lg text-white">
+      <button className="ml-8 bg-green-700 px-12 rounded-md py-1 hover:bg-green-800">
+        <a href="#" className="font-semibold text-lg text-white">
           Login
         </a>
       </button>

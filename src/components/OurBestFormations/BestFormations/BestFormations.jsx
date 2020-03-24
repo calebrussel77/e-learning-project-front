@@ -3,9 +3,9 @@ import Formations from "../../Formations/Formations";
 
 const BestFormations = () => {
     return (
-        <div>
+        <React.Fragment>
             <Formations/>
-        </div>
+        </React.Fragment>
     );
 };
 

@@ -1,0 +1,10 @@
+
+.carousel-cell {
+    width: 50%; /* half-width */
+    height: 750px;
+    margin-right: 10px;
+}
+
+.carousel { height: 100%; }
+
+.carousel-cell { height: 100% }

@@ -6,9 +6,10 @@ const Layouts = props => {
   return (
     <React.Fragment>
       <Navigation />
-      {props.children}
 
-      <div className="mt-48 w-full">
+          {props.children}
+
+      <div className="mt-48">
         <Footer />
       </div>
     </React.Fragment>

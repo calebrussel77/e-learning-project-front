@@ -3,8 +3,8 @@ import BannerIcon from '../../assets/svg/bannerIcon/BannerIcon';
 
 const Banner = () => {
   return (
-    <div className="flex mt-16">
-      <div className="items-baseline pl-16 w-1/2">
+    <div className="flex items-center justify-center mt-10">
+      <div className="w-1/2 ">
         <h1 className="text-gray-900 font-bold tracking-tighter text-3xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </h1>
@@ -14,11 +14,11 @@ const Banner = () => {
           Rerum repellat rem reprehenderit numquam sit dolorum obcaecati. Nobis,
           distinctio delectus?
         </p>
-        <button className="text-white shadow-lg font-bold rounded-md my-10 bg-green-700 px-10 py-3 text-lg hover:bg-green-800">
+        <button className="text-white shadow-lg font-bold rounded-md my-8 bg-green-700 px-10 py-3 text-lg hover:bg-green-800">
           Commencez içi
         </button>
       </div>
-      <div className="items-baseline mt-4 pr-16 ml-0 w-1/2">
+      <div className="w-2/3">
         <BannerIcon />
       </div>
     </div>

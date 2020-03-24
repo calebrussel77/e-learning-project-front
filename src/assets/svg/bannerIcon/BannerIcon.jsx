@@ -6,7 +6,7 @@ const BannerIcon = () => {
       id="b3df86d2-2022-47c6-a781-bb5144daf06b"
       data-name="Layer 1"
       xmlns="http://www.w3.org/2000/svg"
-      width="700.02697"
+      width="500.02697"
       height="400.91632"
       viewBox="0 0 802.02697 590.91632"
     >
